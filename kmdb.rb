@@ -320,7 +320,19 @@ puts ""
 # Query the movies data and loop through the results to display the movies output.
 # TODO!
 
+# movies = Movie.all
 
+# for new_movie in movies
+#     title = new_movie["title"]
+#     year_released = new_movie["year_released"]
+#     rated = new_movie["rated"]
+    
+#     # match studio id to studio table and pull name
+#     studio_movies = Studio.where({ "id" => new_movie["studio_id"] })
+#     studio = studio_movies["name"]
+#     # display the first_name and last_name
+#     puts "#{title} #{year_released} #{rated} #{studio}"
+#   end
 
 # Prints a header for the cast output
 puts ""
